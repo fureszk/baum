@@ -101,7 +101,8 @@ with:
 
 Run `composer install` to install it.
 
-As with most Laravel 5 packages you'll then need to register the Baum
+As of Laravel 5.5 we are taking advantage of its package auto-discovery feature, 
+but in previous versions you'll need to register the Baum
 *service provider*. To do that, head over your `config/app.php` file and add
 the following line into the `providers` array:
 
